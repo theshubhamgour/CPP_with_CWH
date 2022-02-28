@@ -1,0 +1,31 @@
+#include<iostream>
+
+int main(){
+    std::cout<<" hello world";
+}
+
+1. #include<iostream> - 
+                        this whole text is called a header file.
+                        In this line of code include is a keyword used to add libraries in our program. 
+                        "iostream" is the name of a library, added to our program. The iostream library 
+                        helps us to get input data and show output data. The iostream library also has 
+                        many more uses;
+
+2. int main() - 
+                        In this line of code, "int" is a return type which is called integer and "main()" is a function, 
+                        the brackets "()" denotes that it is a function. The curly brace "{" indicates that it is an opening of a function,
+                        and the curly brace "}" indicates that it is the closing of a function. 
+                        In this line of code, "main" is a reserved keyword, and we cannot change it to some other keyword.
+
+3. 'std::cout<<" hello world";' - 
+                        In this line of code "std" is a namespace, "::" is the scope resolution operator and "cout<<" is a function which is used to output data, 
+                        "hello world" is our output string and ";" is used to end a statement. 
+                        The code "std::cout" tells the compiler that the "cout" identifier resides in the std namespace. 
+
+Main key points here are:
+                        *We can write as many statements as you want in a single line, but I recommend you write one statement per line to keep the code neat and clean.
+                        *Anything which is written between double quotation " " is a string literal (More on strings later).
+
+40"return 0" - 
+                        In this line of code, the return keyword will return 0 as an integer to our main function "int main()" as we have discussed before. 
+                        Returning 0 as a value to the main function means successful termination of the program.
